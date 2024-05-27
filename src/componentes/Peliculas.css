@@ -1,0 +1,27 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /*grid responsive en 1 linea de codigo */  
+    row-gap: 2rem;
+}
+
+li {
+    text-align: center;
+    padding: 1rem;
+}
+
+.contenedor-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+}
+
+li p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
