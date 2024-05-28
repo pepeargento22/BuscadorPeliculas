@@ -23,7 +23,7 @@ export function usePelis(inputRef) {
         if (valor_busqueda.length > 0) {
             // si el fetch no funciona como debe, fijate en las Dev Tools -> Network -> Fetch/XHR para ver los Headers y la Response
             // asi podes fijarte si el problema esta en el fetch() o en otra parte de tu codigo
-            fetch(`http://www.omdbapi.com/?apikey=b563b023&s=${valor_busqueda}&type=movie`)
+            fetch(`https://www.omdbapi.com/?apikey=b563b023&s=${valor_busqueda}&type=movie`)
             .then(response => response.json())
             .then(array_pelis => {
                 setBusquedaPelis(array_pelis)

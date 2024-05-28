@@ -21,7 +21,7 @@ function PelisConResultado({ lista_peliculas }) {
 
 function PelisSinResultado() {
     return (
-        <p> No se encontró una pelicula con ese titulo</p>
+        <p>No se encontró una pelicula con ese título</p>
     )
 }
 

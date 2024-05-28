@@ -26,7 +26,18 @@ form label {
 }
 
 form input {
-    margin-right: 2rem
+    margin-right: 2rem;
+    color: black;
+    -webkit-text-stroke: 0
+}
+
+::placeholder {
+    color: gray;
+}
+
+button {
+    font-weight: bold;
+    -webkit-text-stroke: 0;
 }
 
 .resultado-busqueda {
